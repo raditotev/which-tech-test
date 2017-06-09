@@ -1,4 +1,5 @@
 require 'capybara/cucumber'
+# Use binding.pry in step definitions for debugging (REPL)
 require 'pry'
 
 Capybara.default_driver = :chrome
