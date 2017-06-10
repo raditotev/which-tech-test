@@ -1,6 +1,7 @@
 require 'capybara/cucumber'
 # Use binding.pry in step definitions for debugging (REPL)
 require 'pry'
+require_relative 'query_helpers'
 
 Capybara.default_driver = :chrome
   Capybara.register_driver :chrome do |app|
@@ -19,3 +20,6 @@ width = ENV['width']
 if height && width
   Capybara.current_session.driver.browser.manage.window.resize_to(height, width)
 end
+
+# Include helper methods
+World(QueryHelpers)
