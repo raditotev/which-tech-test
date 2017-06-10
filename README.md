@@ -1,4 +1,4 @@
-# Automation test for the TV review section at Which website
+# Which website - TV review section, automation test
 
 ### Setup
 
@@ -21,4 +21,12 @@
 
 ### Running tests
 
-Execute `cucumber`
+Execute `cucumber` in order to run all tests
+
+If you want to run scenario or group of scenarios, place @tag above each one and run `cucumber -t @tag`
+
+To test feature on different browser sizes, pass the required dimensions from the command line e.g. `cucumber height=1920 width=1080`
+
+### Results
+
+In case of failing tests, the framework prints custom messages, describing the failure and creates a /screenshots folder in the project folder, where a screenshot with the scenario name can be found.
