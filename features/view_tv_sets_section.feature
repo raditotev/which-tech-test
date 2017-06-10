@@ -1,13 +1,13 @@
 Feature: View TV sets section
-	As a unregistered user
-	I want to be able to see latest TV sets
-	So I can find, what is currently available
+	As unregistered user
+	I want to be able to see all TV sets currently on the market
+	So I can decide, which ones will suit my needs best
 
 
 	Background:
 		Given I am on the TV sets review page
 
-	Scenario: Consumer land on the page for the first time
+	Scenario: Consumer lands on the page for the first time
 		Then I should be informed about the cookies policy
 		And I should see an info description regarding the page
 
@@ -33,3 +33,25 @@ Feature: View TV sets section
 		Given I want to see what has been recently released
 		When I select the option from the 'Sort by' menu
 		Then I should see the latest releases first
+
+	Scenario: Consumer wants to see current best buying TVs
+
+	Scenario: Consumer wants to find, which TVs to avoid
+
+	Scenario: Consumer looks for an advice
+
+	Scenario Outline: Consumer is looking for particuar screen size
+
+	Scenario: Consumer is has a certain budget
+
+	Scenario Outline: Consumer is interested in a certain brand
+
+	Scenario Outline: Consumer is not sure what screen size TV to buy
+
+	Scenario Outline: Consumer wants to explore the differences between screen types
+
+	Scenario Outline: Consumer is looking for a TV based on resolution
+
+	Scenario Outline: Consumer is searching for a TV based on it's features
+
+	Scenario Outline: Consumer would like to find the retailer selling the TV he/she likes
