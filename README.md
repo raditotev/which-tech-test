@@ -5,7 +5,7 @@
 1. Install rvm
   + Follow the instructions [here](https://rvm.io/rvm/install)
 2. Install ruby
-  + `rvm install ruby-2.4.0`
+  + `rvm install ruby-2.4.1`
 3. Install bundler
   + `gem install bundler`
 4. Clone this repository
