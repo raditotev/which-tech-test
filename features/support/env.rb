@@ -12,3 +12,10 @@ Capybara.default_driver = :chrome
   }
   Capybara::Selenium::Driver.new(app, :browser => :chrome)
 end
+
+height = ENV['height']
+width = ENV['width']
+
+if height && width
+  Capybara.current_session.driver.browser.manage.window.resize_to(height, width)
+end
