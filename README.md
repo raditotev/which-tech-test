@@ -1,4 +1,4 @@
-# Which website - TV review section, automation test
+# Which website - TV review section, automation tests
 
 ### Setup
 
